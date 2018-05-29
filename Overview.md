@@ -13,7 +13,7 @@ app.post('/login', passport.authenticate('local', { successRedirect: '/',
                                                     failureRedirect: '/login' }));
 ```
 
-## Install
+## 安装
 
 ```shell
 $ npm install passport
